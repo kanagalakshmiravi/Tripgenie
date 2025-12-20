@@ -29,21 +29,23 @@ const router=createBrowserRouter([
     element:<Viewtrip/>
   },
   {
-    path:'My-trip',
+    path:'my-trip',
     element:<MyTrip/>
   }
 
 
 
 
-],{ basename: "/Tripgenie" });
+]);
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <GoogleOAuthProvider clientId={import.meta.env.VITE_GOOGLE_AUTH_CLIENT_ID}>
      <Header/>
      <Toaster/>
-     <RouterProvider router={router} />
+       
+        <RouterProvider router={router} />
+      
      
     </GoogleOAuthProvider> 
   </StrictMode>,
