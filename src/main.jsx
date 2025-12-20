@@ -9,7 +9,7 @@ import CreateTrip from './create-trip/index.jsx'
 import Header from './components/ui/custom/Header.jsx'
 import { Toaster } from "sonner"; // <-- fixed import
 import Viewtrip from "./view-trip/[tripId]/index.jsx"
-import MyTrip from "./my-trip/index.jsx"
+import MyTrip from "./My-trip/index.jsx"
 
 
 
@@ -29,7 +29,7 @@ const router=createBrowserRouter([
     element:<Viewtrip/>
   },
   {
-    path:'my-trip',
+    path:'My-trip',
     element:<MyTrip/>
   }
 
