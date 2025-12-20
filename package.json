@@ -3,6 +3,9 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
   "homepage": "https://kanagalakshmiravi.github.io/Tripgenie",
   "scripts": {
     "dev": "vite",
