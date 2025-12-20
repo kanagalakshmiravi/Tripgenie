@@ -12,7 +12,7 @@ import { toast } from "sonner";
 import InfoSection from "../components/InfoSection";
 import Hotel from "../components/Hotel";
 import PlacesToVisit from "../components/PlacesToVisit";
-import Footer from "../components/footer";
+import Footer from "../components/Footer";
 
 export default function Viewtrip() {
   const { tripId } = useParams();
