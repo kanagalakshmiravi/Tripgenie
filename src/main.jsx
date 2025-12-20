@@ -36,7 +36,7 @@ const router=createBrowserRouter([
 
 
 
-])
+],{ basename: "/Tripgenie" });
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -44,6 +44,7 @@ createRoot(document.getElementById('root')).render(
      <Header/>
      <Toaster/>
      <RouterProvider router={router} />
+     
     </GoogleOAuthProvider> 
   </StrictMode>,
 )
